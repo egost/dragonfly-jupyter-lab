@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+source /bin/virtualenvwrapper.sh
+
+workon venv
+cd $PROJ/.archive/meghan-repetitive-excel-pdf
+jupyter notebook
